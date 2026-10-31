@@ -55,9 +55,11 @@ ul li a{
 ul li a::after{
   content:'';
   height:3px;
-  width:clalc(100%+3px);
+  width:100%;
   left:0;
   bottom:-3px;
   background-color:white;
-  
+}
+ul li a:hover::after{
+  width:clalc(100%+3px)
 }
